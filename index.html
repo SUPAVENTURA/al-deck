@@ -23,7 +23,6 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="https://www.momoyoga.com/schedule-plugin/v2/css/schedule-frontend.css" crossorigin="anonymous">
 <link rel="stylesheet" href="css/styles.css" />
 
 <script type="application/ld+json">
@@ -196,21 +195,30 @@
   </div>
 </section>
 
-<!-- SCHEDULE (Momoyoga widget) -->
+<!-- SCHEDULE / OFFER SUMMARY -->
 <section class="schedule-section sa-reveal" id="schedule">
   <div class="container">
-    <span class="mono section-label" data-en="This Week on the Deck" data-es="Esta semana en el deck">This Week on the Deck</span>
-    <h2 data-en="The live schedule, straight from Momoyoga." data-es="El horario en vivo, directo desde Momoyoga.">The live schedule, straight from Momoyoga.</h2>
-    <p class="section-intro" data-en="This board updates automatically — no need to check twice. Pick a class and reserve directly below; we'll save you a mat." data-es="Este horario se actualiza solo — no hace falta chequear dos veces. Elegí una clase y reservá directo abajo; te guardamos el mat.">This board updates automatically — no need to check twice. Pick a class and reserve directly below; we'll save you a mat.</p>
+    <span class="mono section-label" data-en="What's on the Deck" data-es="Qué hay en el deck">What's on the Deck</span>
+    <h2 data-en="Daily yoga. Special ceremonies. Always something moving." data-es="Yoga diario. Ceremonias especiales. Siempre pasa algo.">Daily yoga. Special ceremonies. Always something moving.</h2>
+    <p class="section-intro" data-en="New classes and facilitators every week — Vinyasa, Hatha, Ashtanga, Yin, breathwork, reiki, sound healing and ceremony, all on rotation." data-es="Clases y facilitadores nuevos cada semana — Vinyasa, Hatha, Ashtanga, Yin, breathwork, reiki, sound healing y ceremonia, todo rotando.">New classes and facilitators every week — Vinyasa, Hatha, Ashtanga, Yin, breathwork, reiki, sound healing and ceremony, all on rotation.</p>
 
-    <div id="momoyoga-widget-wrap">
-      <div class="momoyoga-schedule" data-momo-schedule="https://www.momoyoga.com/aldeckzeneidas"></div>
+    <div class="offer-tags">
+      <span class="offer-tag" data-en="Daily Yoga Classes" data-es="Yoga Diario">Daily Yoga Classes</span>
+      <span class="offer-tag" data-en="Special Ceremonies" data-es="Ceremonias Especiales">Special Ceremonies</span>
+      <span class="offer-tag" data-en="Breathwork" data-es="Breathwork">Breathwork</span>
+      <span class="offer-tag" data-en="Reiki Sessions" data-es="Sesiones de Reiki">Reiki Sessions</span>
+      <span class="offer-tag" data-en="Sound Healing" data-es="Sound Healing">Sound Healing</span>
     </div>
 
     <div class="schedule-foot">
-      <p data-en="Prefer the full-screen version? You can always book straight on Momoyoga, or check our Instagram stories for last-minute changes." data-es="¿Preferís la versión de pantalla completa? Siempre podés reservar directo en Momoyoga, o ver nuestras historias de Instagram por cambios de último momento.">Prefer the full-screen version? You can always book straight on Momoyoga, or check our Instagram stories for last-minute changes.</p>
-      <a class="btn btn-primary" href="https://www.momoyoga.com/aldeckzeneidas/schedule" target="_blank" rel="noopener noreferrer" data-en="Open full schedule →" data-es="Ver horario completo →">Open full schedule →</a>
+      <p data-en="Schedule changes weekly and fills up fast — check the live calendar and grab your spot on Momoyoga." data-es="El horario cambia cada semana y se llena rápido — mirá el calendario en vivo y reservá tu lugar en Momoyoga.">Schedule changes weekly and fills up fast — check the live calendar and grab your spot on Momoyoga.</p>
+      <a class="btn btn-primary" href="https://www.momoyoga.com/aldeckzeneidas/schedule" target="_blank" rel="noopener noreferrer" data-en="See schedule & book →" data-es="Ver horario y reservar →">See schedule &amp; book →</a>
     </div>
+
+    <a class="schedule-ig" href="https://instagram.com/al_deck_" target="_blank" rel="noopener noreferrer">
+      <span class="mono">@al_deck_</span>
+      <span data-en="on Instagram for daily updates" data-es="en Instagram para novedades del día a día">on Instagram for daily updates</span>
+    </a>
   </div>
 </section>
 
@@ -326,6 +334,20 @@
   </div>
 </section>
 
+<!-- RETREATS & GROUPS -->
+<section class="sa-reveal">
+  <div class="container">
+    <div class="rule">
+      <div class="rule-icon">🌿</div>
+      <div>
+        <h3 data-en="Running a retreat or surf camp?" data-es="¿Organizás un retiro o surf camp?">Running a retreat or surf camp?</h3>
+        <p data-en="Yoga retreats, surf camps and group trips can book the whole deck for a week — daily classes, ceremony and space for your group only. Message us on WhatsApp to check dates and availability." data-es="Retiros de yoga, surf camps y grupos pueden reservar el deck completo por una semana — clases diarias, ceremonia y el espacio solo para tu grupo. Escribinos por WhatsApp para chequear fechas y disponibilidad.">Yoga retreats, surf camps and group trips can book the whole deck for a week — daily classes, ceremony and space for your group only. Message us on WhatsApp to check dates and availability.</p>
+      </div>
+      <a class="btn btn-primary" style="background:var(--whatsapp); box-shadow:0 3px 0 #1f7a30;" href="https://wa.me/50689099340?text=Hi!%20I'm%20interested%20in%20booking%20the%20deck%20for%20a%20retreat%20or%20surf%20camp." target="_blank" rel="noopener noreferrer" data-en="WhatsApp us →" data-es="Escribinos por WhatsApp →">WhatsApp us →</a>
+    </div>
+  </div>
+</section>
+
 <!-- HOW IT WORKS -->
 <section class="sa-reveal">
   <div class="container">
@@ -417,9 +439,6 @@
     <span data-en="Instagram" data-es="Instagram">Instagram</span>
   </a>
 </nav>
-
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-<script src="https://www.momoyoga.com/schedule-plugin/v2/js/schedule.js" crossorigin="anonymous"></script>
 
 <script>
 (function() {
